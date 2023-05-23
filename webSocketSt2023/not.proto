@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+service send_notifications{
+    rpc sendNotifications(notifications) returns (response);
+}
+
+message notification {
+  int64 id_user = 1;
+  int64 id_service = 2;
+  string status = 3;
+  int64 id = 4;
+}
+
+message notifications {
+  repeated notification data = 1;
+}
+
+message response{
+    repeated notification data = 1;
+}
