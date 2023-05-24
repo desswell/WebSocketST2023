@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\tnot.proto\"O\n\x0cnotification\x12\x0f\n\x07id_user\x18\x01 \x01(\x03\x12\x12\n\nid_service\x18\x02 \x01(\x03\x12\x0e\n\x06status\x18\x03 \x01(\t\x12\n\n\x02id\x18\x04 \x01(\x03\",\n\rnotifications\x12\x1b\n\x04\x64\x61ta\x18\x01 \x03(\x0b\x32\r.notification\"\'\n\x08response\x12\x1b\n\x04\x64\x61ta\x18\x01 \x03(\x0b\x32\r.notification2D\n\x12send_notifications\x12.\n\x11sendNotifications\x12\x0e.notifications\x1a\t.responseb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\tnot.proto\"O\n\x0cnotification\x12\x0f\n\x07id_user\x18\x01 \x01(\x03\x12\x12\n\nid_service\x18\x02 \x01(\x03\x12\x0e\n\x06status\x18\x03 \x01(\t\x12\n\n\x02id\x18\x04 \x01(\x03\",\n\rnotifications\x12\x1b\n\x04\x64\x61ta\x18\x01 \x03(\x0b\x32\r.notification\"\x18\n\x08response\x12\x0c\n\x04\x64\x61ta\x18\x01 \x01(\t2D\n\x12send_notifications\x12.\n\x11sendNotifications\x12\x0e.notifications\x1a\t.responseb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'not_pb2', globals())
@@ -25,7 +25,7 @@ if _descriptor._USE_C_DESCRIPTORS == False:
   _NOTIFICATIONS._serialized_start=94
   _NOTIFICATIONS._serialized_end=138
   _RESPONSE._serialized_start=140
-  _RESPONSE._serialized_end=179
-  _SEND_NOTIFICATIONS._serialized_start=181
-  _SEND_NOTIFICATIONS._serialized_end=249
+  _RESPONSE._serialized_end=164
+  _SEND_NOTIFICATIONS._serialized_start=166
+  _SEND_NOTIFICATIONS._serialized_end=234
 # @@protoc_insertion_point(module_scope)

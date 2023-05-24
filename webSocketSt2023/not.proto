@@ -16,5 +16,5 @@ message notifications {
 }
 
 message response{
-    repeated notification data = 1;
+    string data = 1;
 }
